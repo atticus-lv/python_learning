@@ -4,11 +4,11 @@
 
 # 列表
 
-# a = []
+# start_number = []
 # for i in range(0,10):
-#     a.append(random.randint(0,10))
+#     start_number.append(random.randint(0,10))
 
-# b = [random.randint(0,10) for i in range(0,10)]
+# end_number = [random.randint(0,10) for i in range(0,10)]
 
 
 #

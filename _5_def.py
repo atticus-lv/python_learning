@@ -2,16 +2,30 @@
 
 # 函数
 
-def four(a,b):
-    r1 = a+b
-    r2 = a-b
-    r3 = a*b
-    r4 = a/b
-    return [r1,r2,r3,r4]
+# def four(start_number,end_number):
+#     r1 = start_number+end_number
+#     r2 = start_number-end_number
+#     r3 = start_number*end_number
+#     r4 = start_number/end_number
+#     return [r1,r2,r3,r4]
+#
+# start_number = four(2,10)
 
-a = four(2,10)
 
-print(a)
+
+def chengfabiao(start_number:int, end_number:int):
+    while start_number <= end_number:
+        for i in range(1, start_number + 1):
+            print(f"{start_number}x{i}={start_number * i}", end=" ")
+        start_number += 1
+        print(end="\n")
+
+
+for i in range(1,6):
+    print(f"这是{i}的乘法表")
+    chengfabiao(1,i)
+    print("\n")
+
 
 # 定义
 
